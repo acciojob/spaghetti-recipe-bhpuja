@@ -1,16 +1,57 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaghetti Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f8f8f8;
+        }
+        h1, h2 {
+            color: #c0392b;
+        }
+        ul, ol {
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1>Spaghetti Recipe</h1>
 
+    <h2>Ingredients</h2>
+    <ul>
+        <li>Spaghetti</li>
+        <li>Marinara Sauce</li>
+        <li>Salt</li>
+        <li>Water</li>
+    </ul>
+
+    <h2>Instructions</h2>
+    <ol>
+        <li>Bring water to a boil.</li>
+        <li>
+            Add spaghetti to boiling water.
+            <ol>
+                <li>Add salt to taste.</li>
+                <li>Cook for 10 minutes, stirring occasionally.</li>
+            </ol>
+        </li>
+        <li>Add marinara sauce to a pan, bringing to a simmer.</li>
+        <li>Mix cooked spaghetti with marinara sauce.</li>
+        <li>Enjoy!</li>
+    </ol>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            alert("Welcome to the Spaghetti Recipe page!");
+        });
+    </script>
 </body>
-
 </html>
